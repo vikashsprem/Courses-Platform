@@ -1,8 +1,57 @@
-# React + Vite
+# Course Management Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that allows users to view a a list of courses and search through a list of courses, students can enroll the courses see their progress.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display a list of courses with details such as name, instructor, and description.
+- Search functionality to filter courses based on name.
+- Enrollment feature to enroll in courses.
+- Student can track their enrolled courses
+
+## Technologies Used
+
+- React.js
+- Redux Toolkit for state management
+- Tailwind CSS for styling
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/vikashsprem/Courses-Platform.git
+
+   cd Courses-Platform
+   ```
+2. **Install the package and run the server:**
+
+   ```bash
+    npm install
+    ```
+3. **Run the dummy backend:**
+
+   ```bash
+    npm run json-server
+    ```
+4. **Run the application:**
+
+   ```bash
+    npm run dev
+    ```
+
+- Note: Backend is running at localhost:5000 and frontend is running at localhost:5173.
+
+## Usage To use the application:
+
+Open your web browser and navigate to http://localhost:5173
+
+Note: Progress in progress-bar is randomly generated as of now.
+
+## Social Media
+
+Follow me on social media for updates and more! If you have any issues running this project, please feel free to drop me a message.
+
+* [LinkedIn](https://www.linkedin.com/in/vikashsprem)
+* [Twitter](https://twitter.com/vikashsprem)
+* [GitHub](https://github.com/vikashsprem)

@@ -1,0 +1,174 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to React Native",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://edigitalguru.in/wp-content/uploads/woocommerce-placeholder.png",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 3,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        },
+        {
+          "week": 4,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        },
+        {
+          "id": 102,
+          "name": "Bob Smith",
+          "email": "bob@example.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Advanced React",
+      "instructor": "Jane Doe",
+      "description": "Dive deeper into React and learn advanced concepts and techniques.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://edigitalguru.in/wp-content/uploads/woocommerce-placeholder.png",
+      "duration": "10 weeks",
+      "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": ["Introduction to React Native"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "State Management",
+          "content": "Understanding state management with Redux and Context API."
+        },
+        {
+          "week": 2,
+          "topic": "Hooks",
+          "content": "In-depth look into React Hooks and custom hooks."
+        }
+      ],
+      "students": [
+        {
+          "id": 103,
+          "name": "Charlie Brown",
+          "email": "charlie@example.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "JavaScript Fundamentals",
+      "instructor": "Emily Davis",
+      "description": "Learn the core concepts of JavaScript, the programming language of the web.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "https://edigitalguru.in/wp-content/uploads/woocommerce-placeholder.png",
+      "duration": "6 weeks",
+      "schedule": "Fridays, 5:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Variables and Data Types",
+          "content": "Introduction to variables, data types, and basic operations."
+        },
+        {
+          "week": 2,
+          "topic": "Control Structures",
+          "content": "Understanding if statements, loops, and other control structures."
+        }
+      ],
+      "students": [
+        {
+          "id": 104,
+          "name": "David White",
+          "email": "david@example.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Web Development with HTML and CSS",
+      "instructor": "Chris Lee",
+      "description": "Learn how to build beautiful and responsive websites using HTML and CSS.",
+      "enrollmentStatus": "In Progress",
+      "thumbnail": "https://edigitalguru.in/wp-content/uploads/woocommerce-placeholder.png",
+      "duration": "8 weeks",
+      "schedule": "Saturdays, 10:00 AM - 1:00 PM",
+      "location": "Online",
+      "prerequisites": ["None"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to HTML",
+          "content": "Learn the basics of HTML and how to create a simple webpage."
+        },
+        {
+          "week": 2,
+          "topic": "Styling with CSS",
+          "content": "Learn how to style webpages using CSS."
+        }
+      ],
+      "students": [
+        {
+          "id": 105,
+          "name": "Ella Green",
+          "email": "ella@example.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Node.js for Beginners",
+      "instructor": "Michael Scott",
+      "description": "Get started with Node.js and build server-side applications using JavaScript.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://edigitalguru.in/wp-content/uploads/woocommerce-placeholder.png",
+      "duration": "10 weeks",
+      "schedule": "Tuesdays and Thursdays, 8:00 PM - 10:00 PM",
+      "location": "Online",
+      "prerequisites": ["JavaScript Fundamentals"],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Node.js",
+          "content": "Learn the basics of Node.js and setting up a server."
+        },
+        {
+          "week": 2,
+          "topic": "Building APIs",
+          "content": "Learn how to build RESTful APIs using Express.js."
+        }
+      ],
+      "students": [
+        {
+          "id": 106,
+          "name": "Frank Martin",
+          "email": "frank@example.com"
+        }
+      ]
+    }
+  ]
+}

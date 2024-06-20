@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { setCourses,setEnrolledCourses,updateCourseStatus } from '../reducers/courseReducer';
+import { setCourses,setEnrolledCourses,updateCourseStatus,updateCourseLike } from '../reducers/courseReducer';
 
 export const fetchCourses = () => async dispatch => {
   try {
@@ -26,4 +26,17 @@ export const markCourseCompleted = (id) => (dispatch, getState) => {
   );
 
   dispatch(updateCourseStatus(updatedCourses));
+};
+
+
+// Likes handle 🎁 for showcasing proficiency.
+export const fetchCourseLikes = () => async dispatch => {
+  try {
+    const response = await axios.get(`http://localhost:5000/courses`);
+    response.data.forEach(course => {
+      dispatch(updateCourseLike({ courseId: course.id, like: course.like }));
+    });
+  } catch (error) {
+    console.error('Error fetching course likes:', error);
+  }
 };

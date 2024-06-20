@@ -1,6 +1,6 @@
 import { useEffect,useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchCourses } from '../store/actions/courseActions';
+import { fetchCourseLikes, fetchCourses } from '../store/actions/courseActions';
 import { Link } from 'react-router-dom';
 
 const CourseList = () => {
@@ -13,10 +13,6 @@ const CourseList = () => {
 
   useEffect(() => {
     dispatch(fetchCourses());
-    const intervalId = setInterval(() => {
-      dispatch(fetchCourses());
-    }, 100);
-    return () => clearInterval(intervalId);
   }, [dispatch]);
 
   // Update filteredCourses whenever courseList changes
@@ -44,8 +40,15 @@ const CourseList = () => {
     }
   };
 
-  return (
+  // Likes handle 🎁 for showcasing proficiency.
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      dispatch(fetchCourseLikes());
+    }, 1000);
+    return () => clearInterval(intervalId);
+  }, [dispatch]);
 
+  return (
     <>
       <div className="text-center mt-7">
         <input

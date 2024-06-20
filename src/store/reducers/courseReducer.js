@@ -31,9 +31,18 @@ const courseSlice = createSlice({
         state.enrolledCourses.push(courseToEnroll);
       }
     },
+
+    // Likes handle 🎁 for showcasing proficiency.
+    updateCourseLike(state, action) {
+      const { courseId, like } = action.payload;
+      const courseToUpdate = state.courseList.find(course => course.id === courseId);
+      if (courseToUpdate) {
+        courseToUpdate.like = like;
+      }
+    },
   },
 });
 
-export const { setCourses, setEnrolledCourses, selectCourse, updateCourseStatus, enrollInCourse } = courseSlice.actions;
+export const { setCourses, setEnrolledCourses, selectCourse, updateCourseStatus, enrollInCourse, updateCourseLike } = courseSlice.actions;
 
 export default courseSlice.reducer;

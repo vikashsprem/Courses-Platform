@@ -10,7 +10,7 @@
       "duration": "8 weeks",
       "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
       "location": "Online",
-      "like":"1",
+      "like":"2001",
       "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
       "syllabus": [
         {
@@ -57,6 +57,7 @@
       "duration": "10 weeks",
       "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
       "location": "Online",
+      "like":"21",
       "prerequisites": ["Introduction to React Native"],
       "syllabus": [
         {

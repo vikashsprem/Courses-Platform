@@ -2,6 +2,9 @@
 
 This is a simple React application that allows users to view a a list of courses and search through a list of courses, students can enroll the courses see their progress.
 
+## Screen recording (Demo): 
+- Click to this link to see the demo of this application:- https://drive.google.com/file/d/1gU7hca18yty_9_1OkB9HhaVOxjclbM5N/view?usp=sharing
+
 ## Features
 
 - Display a list of courses with details such as name, instructor, and description.
